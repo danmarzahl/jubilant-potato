@@ -24,6 +24,10 @@ jobs:
         run: ls -al /
       - name: Trigger release build
         run: ls -al ~
+      - name: t
+        run: ls -al
+      - name: u
+        run: ls -al /__w/jubilant-potato/jubilant-potato
       - name: Archive Results
         uses: actions/upload-artifact@v2
         with:
