@@ -1,4 +1,9 @@
 #include <stdio.h>
+void Ending()
+{
+	printf("Ending is here\n");
+}
+
 void main()
 {
 	printf("Hello\n");
@@ -6,4 +11,5 @@ void main()
 	printf("Hello3\n");
 	printf("Hello4\n");
 	printf("Hello5\n");
+	Ending();
 }
